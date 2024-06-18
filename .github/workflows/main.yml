@@ -3,10 +3,10 @@ name: Check and Build
 env:
   kernel_repository: LineageOS/android_kernel_xiaomi_msm8998
   kernel_branch: lineage-21
-  device: lineage_sagit
+  device: lineage
   clang_version: r365631c
   defconfig: |
-    lineage_sagit_defconfig
+    lineage_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
